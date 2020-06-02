@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 97)
+    (drawings 101)
     (tracks 441)
     (zones 0)
     (modules 63)
@@ -2029,6 +2029,18 @@
       (net 3 "Net-(J3-Pad1)"))
   )
 
+  (gr_text V-CUT (at 69.215 83.82) (layer B.SilkS) (tstamp 5ED64FAB)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text V-CUT (at 69.215 66.04) (layer B.SilkS) (tstamp 5ED64FA9)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text V-CUT (at 137.795 47.625) (layer B.SilkS) (tstamp 5ED64FA7)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text V-CUT (at 104.14 47.625) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_line (start 170.815 83.82) (end 71.755 83.82) (layer B.SilkS) (width 0.12))
   (gr_line (start 71.755 66.04) (end 170.815 66.04) (layer B.SilkS) (width 0.12))
   (gr_line (start 137.795 101.6) (end 137.795 48.26) (layer B.SilkS) (width 0.12))
