@@ -565,10 +565,6 @@ Wire Wire Line
 	8700 4400 9200 4400
 Connection ~ 8800 950 
 Wire Bus Line
-	4000 3100 4000 4600
-Wire Bus Line
-	4000 4600 5450 4600
-Wire Bus Line
 	9300 4600 9300 3000
 Wire Bus Line
 	9300 3000 8900 3000
@@ -807,12 +803,9 @@ Wire Wire Line
 	1450 6150 1450 6050
 Connection ~ 1450 6050
 Wire Bus Line
-	4000 4600 3400 4600
-Wire Bus Line
 	3400 4600 3400 5600
 Wire Bus Line
 	3400 5600 5450 5600
-Connection ~ 4000 4600
 Connection ~ 5450 5600
 Text Notes 3700 4850 0    200  ~ 0
 Decoder\n
@@ -1092,4 +1085,6 @@ Connection ~ 3400 6300
 Connection ~ 550  6300
 Text Notes 600  7100 0    200  ~ 0
 Adder
+Wire Bus Line
+	3400 4600 5450 4600
 $EndSCHEMATC

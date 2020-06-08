@@ -1080,4 +1080,16 @@ Connection ~ 1450 7300
 Connection ~ 3800 6050
 Wire Wire Line
 	3800 6050 4150 6050
+Wire Bus Line
+	3400 6300 6800 6300
+Wire Bus Line
+	6800 6300 6800 7650
+Wire Bus Line
+	6800 7650 550  7650
+Wire Bus Line
+	550  7650 550  6300
+Connection ~ 3400 6300
+Connection ~ 550  6300
+Text Notes 600  7100 0    200  ~ 0
+Adder
 $EndSCHEMATC
